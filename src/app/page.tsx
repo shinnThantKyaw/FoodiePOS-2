@@ -1,6 +1,5 @@
 "use client";
 
-import styles from "./page.module.css";
 import { createUser } from "./action";
 
 import { useSession, signIn, signOut } from "next-auth/react";
